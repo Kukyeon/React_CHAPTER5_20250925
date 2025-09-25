@@ -1,4 +1,7 @@
-const Body = () => {
+import React from 'react';
+import "./body.css";
+
+const Body = (props) => {
     const number = 1;
     const number1 = 10;
     const number2 = 20;
@@ -24,12 +27,13 @@ const Body = () => {
       <h3>{obj1.name}</h3>
       <h3>{obj1.age}</h3>
       <h3>
-        {number}는 {number % 2 == 0 ? "짝수" : "홀수"} 입니다
+        {number}는 {number % 2 === 0 ? "짝수" : "홀수"} 입니다
       </h3>
+			<h1>전달 받은 props : {props.name}, {props.age}</h1>
     </div>
     {/* </React.Fragment> */}
     </>
-  )
-}
+  )			
+}			
 
 export default Body;
