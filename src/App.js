@@ -3,6 +3,7 @@ import Body from './component/body';
 import Footer from './component/footer';
 import Header from "./component/Header";
 import React from 'react';
+import "./component/body.css";
 function App() {
   return (
     <div className="App">

@@ -13,7 +13,7 @@ const Body = () => {
   return(
     <>
     {/* <React.Fragment>  랜더링이 되지 않음 */}
-    <div style={{color:"red", backgroundColor:"pink"}}>
+    <div className="test">
       <h1>Body : 우리회사는 세계 제일의 제약회사입니다. @@ </h1>
       <h2>{number}</h2>
       <h3>{number1 + number2}</h3>
